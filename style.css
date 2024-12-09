@@ -19,8 +19,31 @@ body {
     margin-top: -10px;
 }
 
+.nav-bar {
+    background-color: #a8b0bc;
+    border-radius: 7px;
+    padding: 1%;
+    margin: 1%;
+    width: 10%;
+    text-align: center;
+  }
+  .nav-bar a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+  }
+  .nav-bar:hover {
+    background-color: rgba(0,0,0,0.1);
+  }
+
 .stats-container {
     display: flex;
+    align-items: center;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
